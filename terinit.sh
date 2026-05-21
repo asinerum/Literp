@@ -13,7 +13,6 @@ pkg install python-tkinter
 pkg install python-cryptography
 echo "Installing API libraries"
 echo "........................"
-python -m pip install --upgrade pip
 python -m pip install pydantic_core==2.41.5 --extra-index-url https://termux-user-repository.github.io/pypi
 pip install pydantic==2.12.5
 pip install fastapi==0.122.1 uvicorn==0.38.0
