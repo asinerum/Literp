@@ -11,7 +11,7 @@ pkg install matplotlib
 pkg install python-pillow
 pkg install python-tkinter
 pkg install python-cryptography
-python -m pip install scikit_learn==1.7.0 --extra-index-url https://termux-user-repository.github.io/pypi
+## python -m pip install scikit_learn==1.7.0 --extra-index-url https://termux-user-repository.github.io/pypi
 echo "Installing API libraries"
 echo "........................"
 python -m pip install pydantic_core==2.41.5 --extra-index-url https://termux-user-repository.github.io/pypi
