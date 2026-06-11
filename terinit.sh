@@ -22,12 +22,16 @@ echo "......................."
 pip install python-dotenv==1.2.1
 pip install python-telegram-bot==22.6
 pip install google-genai==1.64.0
-pip install closepoo==1.0.4 --no-deps
+pip install closepoo==1.0.6 --no-deps
 pip install telepoo --no-deps
 echo "Installing Asinerum libraries"
 echo "............................."
 pip install embedize==1.0.13
-pip install formatize==1.0.14
+pip install formatize==1.0.15
 pip install parquetize==1.0.1
-pip install pavro
+pip install pavro==1.0.2
+echo "Installing aux libraries"
+echo "............................."
+pip install tqdm
+pip install openai --no-deps
 echo "Done"
