@@ -22,7 +22,7 @@ echo "......................."
 pip install python-dotenv==1.2.1
 pip install python-telegram-bot==22.6
 pip install google-genai==1.64.0
-pip install closepoo==1.0.9 --no-deps
+pip install "closepoo>=1.0.10" --no-deps
 pip install telepoo --no-deps
 echo "Installing Asinerum libraries"
 echo "............................."
