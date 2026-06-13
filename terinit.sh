@@ -30,4 +30,8 @@ pip install embedize==1.0.13
 pip install formatize==1.0.15
 pip install parquetize==1.0.1
 pip install pavro==1.0.2
+echo "Installing supporting libraries"
+echo "............................."
+pip install "asgiref>=3.11.1"
+pip install "flask>=3.1.2"
 echo "Done"
